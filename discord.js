@@ -3,7 +3,7 @@ const fs = require("node:fs"); // 用於讀寫檔案
 const path = require("node:path"); // 用於處理路徑
 const { Client, Collection, Events, GatewayIntentBits } = require("discord.js"); // 引入 Discord.js 模組
 // const { token } = require("./config.json"); // 從 config.json 讀取 token
-const token = "MTIyNjgwODI2NjYwNTA2ODM2OA.Goh95Y.VI5FWA1YjL7TVGnsdD9A1zO6DiApTM3sUnrfzU"
+const token = "MTIyNjgwODI2NjYwNTA2ODM2OA.G-wV1M.lAP-iZLagSsTf1ri-mz8COlkEo70pBlmxUS61M"
 // 創建一個 Discord.js client
 const client = new Client({
 	intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates],
