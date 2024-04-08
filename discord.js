@@ -2,7 +2,8 @@
 const fs = require("node:fs"); // 用於讀寫檔案
 const path = require("node:path"); // 用於處理路徑
 const { Client, Collection, Events, GatewayIntentBits } = require("discord.js"); // 引入 Discord.js 模組
-const { token } = require("./config.json"); // 從 config.json 讀取 token
+// const { token } = require("./config.json"); // 從 config.json 讀取 token
+const token = "MTIyNjczMDk0MTA4MzI5MTY3OA.GWcAs8.Re7nXP7Lwu0ZFZizvAP6mig652U8Ar-ZKBL7wg"
 // 創建一個 Discord.js client
 const client = new Client({
 	intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates],
